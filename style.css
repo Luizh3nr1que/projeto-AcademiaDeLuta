@@ -233,6 +233,7 @@ section {
 }
 
 .button {
+    border: none;
     cursor: pointer;
     background-color: black;
     color: white;
