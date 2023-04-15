@@ -1,0 +1,400 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+.scroll {
+    background-color: black;
+}
+
+header {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    height: 55px;
+    display: flex;
+    top: 0;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-left: 100px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 100px;
+}
+
+menu ul {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+}
+
+menu li {
+    margin-right: 25px;
+}
+
+menu a {
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all ease-in-out .2s;
+
+
+}
+
+menu a:hover {
+    color: white;
+    background-color: red;
+
+}
+
+
+
+
+
+
+
+/*MENU HAMBURGUER*/
+.menu-fake {
+    position: fixed;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+
+
+.menu-lines {
+    position: fixed;
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+}
+
+.menu-lines span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #cdcdcd;
+    border-radius: 3px;
+    transition: all ease .2s;
+}
+
+.menu-fake:checked~.menu-lines span {
+    background-color: #eeeeee;
+}
+
+.menu-fake:checked~.menu-lines span:nth-child(1) {
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.25);
+
+}
+
+
+.menu-fake:checked~.menu-lines span:nth-child(2) {
+    opacity: 0;
+}
+
+
+.menu-fake:checked~.menu-lines span:nth-child(3) {
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.25);
+}
+
+.menu ul {
+    position: fixed;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: rgb(14, 14, 14);
+    height: 100%;
+    margin-left: -200px;
+    transition: all ease .2s;
+}
+
+.menu .menu-fake:checked~ul {
+    margin-left: 0;
+}
+
+.menu ul li {
+    margin-top: 30px;
+    padding: 5px 50px;
+}
+
+.menu img {
+    margin-left: 23px;
+    margin-top: 80px;
+    width: 150px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.menu li a:hover {
+    color: #0087e7;
+}
+
+.menu {
+    display: none;
+    margin-left: 8px;
+    margin-top: 8px;
+
+}
+
+/*FIM HAMBURGUER*/
+
+
+
+main {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 30px;
+    font-weight: bold;
+    line-height: 2em;
+
+}
+
+.normal {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+#img01 {
+    background-image: url(img/4288970.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: white;
+    font-size: 30px;
+
+}
+
+#img01 h1 {
+    margin-top: 350px;
+
+}
+
+#img01 p {
+    margin-top: 10px;
+    color: gray;
+}
+
+.button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    transition: all ease .6s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 2px solid red;
+
+}
+
+#img02 {
+    background-image: url(img/4288971.jpg);
+    background-size: cover;
+    height: 700px;
+
+}
+
+
+#img01 {
+    background-image: url(img/4288970.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: white;
+    font-size: 30px;
+
+}
+
+#img02 h1 {
+    font-size: 50px;
+    color: white;
+    margin-top: 350px;
+
+}
+
+#img02 p {
+    margin-top: 25px;
+    color: gray;
+    font-size: 20px;
+}
+
+
+
+.cartao {
+    transition: all ease .6s;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+}
+
+.cartao:hover {
+    box-shadow: 2px 2px 2px 2px rgba(255, 0, 0, 0.548);
+    border: 1px solid red;
+}
+
+.cartao img {
+    width: 120px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.cartao h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.cartao p {
+    font-size: 22px;
+    color: gray;
+}
+
+
+
+
+.normal h1 {
+    font-size: 40px;
+}
+
+
+.container {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    aspect-ratio: 16/9;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+    height: 200px;
+
+}
+
+.input-container {
+
+    animation: blinkShadowsFilter 8s ease-in infinite;
+}
+
+.content {
+    margin-top: 20px;
+    border: none;
+
+}
+
+.input-is {
+    cursor: pointer;
+    border-radius: 20px;
+    color: hsl(0, 99%, 41%);
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    transition: all 1s ease-in-out;
+    border: 1px solid hsl(0, 99%, 41%);
+}
+
+.input-is:hover {
+    transition: all 2s ease-in-out;
+
+}
+
+.input-is:focus {
+    font-size: 15px;
+    border: 2px solid hsl(0, 99%, 41%);
+    outline: none;
+    color: hsl(0, 99%, 41%);
+
+}
+
+.input-is::-moz-placeholder {
+    color: hsla(0, 100%, 40%, 0.806);
+}
+
+.input-is::placeholder {
+    color: hsl(0, 99%, 36%);
+    font-size: 14px;
+}
+
+.enviar {
+    text-shadow: 2px 2px 2px black;
+    border-radius: 20px;
+    height: 30px;
+    background-color: transparent;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #fff;
+    border: 1px solid hsl(0, 99%, 41%);
+    margin-bottom: 100px;
+
+}
+
+.enviar:hover {
+    font-size: 15px;
+    color: #ffffff;
+    background-color: hsl(0, 99%, 41%);
+}

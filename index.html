@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <title>Luiz website</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <menu>
+            <ul>
+                <li><a href="#zona1">Home</a></li>
+                <li><a href="#zona2">Serviços</a></li>
+                <li><a href="#zona3">Oferta</a></li>
+                <li><a href="#zona4">Sobre</a></li>
+                <li><a href="#zona4">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <nav class="menu">
+        <input type="checkbox" class="menu-fake">
+        <div class="menu-lines">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <img src="img/logo.png" alt="">
+            <li><a href="#zona1">Home</a></li>
+            <li><a href="#zona2">Serviços</a></li>
+            <li><a href="#zona3">Oferta</a></li>
+            <li><a href="#zona4">Sobre</a></li>
+            <li><a href="#zona4">Contato</a></li>
+        </ul>
+    </nav>
+    <div id="zona1">
+
+    </div>
+
+    <main>
+        <section class="imagem01" id="img01">
+            <h1>INTENSIFIQUE SEUS
+                <span style="color: red;">TREINOS</span> COM A GENTE
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="button">SAIBA MAIS</button>
+        </section>
+
+
+
+
+
+        <section class="normal">
+            <div class="cards" style="display: flex;">
+                <div class="cartao">
+                    <img class="1" src="img/1.png" alt="a">
+                    <h1>Levantamento de peso</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="cartao">
+                    <img class="1" src="img/2.png" alt="a">
+                    <h1>Aeróbico</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="cartao">
+                    <img class="1" src="img/3.png" alt="a">
+                    <h1>Aulas Práticas</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div id="zona3">
+
+        </div>
+
+
+        <section class="imagem1" id="img02">
+            <h1>A MELHOR <span style="color: red;">OFERTA</span> PARA O VERÃO !!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="button">FAÇA PARTE</button>
+        </section>
+
+
+
+
+        <section id="zona4" class="normal">
+            <h1>FALE <span style="color: red;">CONOSCO</span></h1>
+            <div class="display">
+                <form id="contact-form" class="container" action="https://formspree.io/f/mbjepdwl" method="POST">
+                    <div class="content">
+                        <div class="input-type">
+
+                            <label id="nameL" for="name">Nome:</label>
+                            <input autocomplete="off" class="input-is" type="text" name="name" id="name"
+                                placeholder="Nome Complto" required>
+
+                            <label for="email">Email:</label>
+                            <input style="background-color: transparent; box-shadow: none;" autocomplete="off"
+                                class="input-is" type="email" name="email" id="email" placeholder="exemplo@email.com">
+
+                            <label for="message">Mensagem:</label>
+                            <textarea class="input-is" name="message" id="message" placeholder="Escreva aqui..."
+                                required></textarea>
+
+                            <button class="enviar" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="javaS.js"></script>
+
+</body>
+
+</html>
