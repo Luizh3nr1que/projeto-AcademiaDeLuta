@@ -22,7 +22,7 @@ body {
 }
 
 .scroll {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.829);
 }
 
 header {
@@ -65,7 +65,7 @@ menu li {
 }
 
 menu a {
-    color: gray;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
@@ -206,7 +206,7 @@ section {
 }
 
 .normal {
-    background-color: rgb(0, 0, 0);
+
     color: rgb(255, 255, 255);
 }
 
@@ -217,7 +217,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
 
 }
@@ -310,7 +310,9 @@ section {
 }
 
 
-
+.normal {
+    background-attachment: fixed;
+}
 
 .normal h1 {
     font-size: 40px;
