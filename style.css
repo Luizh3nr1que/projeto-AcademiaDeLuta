@@ -175,6 +175,7 @@ menu a:hover {
 }
 
 .menu {
+    position: fixed;
     display: none;
     margin-left: 8px;
     margin-top: 8px;
