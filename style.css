@@ -25,11 +25,7 @@ body {
     background-color: rgba(0, 0, 0, 0.829);
 }
 
-html {
-    height: 100%;
-    width: 100%;
-    zoom: 1.0;
-}
+
 
 
 
@@ -215,9 +211,10 @@ section {
 }
 
 .normal {
-
     color: rgb(255, 255, 255);
 }
+
+
 
 
 
@@ -296,6 +293,8 @@ section {
     width: 300px;
     height: 500px;
     margin: auto;
+    border-radius: 8px;
+
 }
 
 .cartao:hover {
