@@ -25,6 +25,14 @@ body {
     background-color: rgba(0, 0, 0, 0.829);
 }
 
+html {
+    height: 100%;
+    width: 100%;
+    zoom: 1.0;
+}
+
+
+
 header {
     z-index: 1;
     width: 100%;
