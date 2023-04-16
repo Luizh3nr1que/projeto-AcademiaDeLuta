@@ -22,6 +22,7 @@ body {
 }
 
 .scroll {
+    box-shadow: 2px 2px 2px rgba(255, 0, 0, 0.904);
     background-color: rgba(0, 0, 0, 0.829);
 }
 
@@ -148,6 +149,7 @@ menu a:hover {
     top: 0;
     width: 200px;
     background-color: rgb(14, 14, 14);
+    border-right: 2px solid red;
     height: 100%;
     margin-left: -200px;
     transition: all ease .2s;
