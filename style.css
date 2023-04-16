@@ -149,7 +149,7 @@ menu a:hover {
     top: 0;
     width: 200px;
     background-color: rgb(14, 14, 14);
-    border-right: 2px solid red;
+    border-right: 1px solid red;
     height: 100%;
     margin-left: -200px;
     transition: all ease .2s;
@@ -177,7 +177,7 @@ menu a:hover {
 }
 
 .menu li a:hover {
-    color: #0087e7;
+    color: #e70000;
 }
 
 .menu {
