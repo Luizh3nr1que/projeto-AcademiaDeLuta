@@ -17,13 +17,41 @@
 
     }
 
+    #img01 h1 {
+        font-size: 35px;
+        margin-top: 250px;
+        margin-right: 150px;
+    }
+
+    #img01 p {
+        font-size: 20px;
+        margin-right: 150px;
+    }
+
+    #img02 h1 {
+        font-size: 35px;
+        margin-top: 250px;
+        margin-right: 150px;
+    }
+
+    #img02 p {
+        font-size: 20px;
+        margin-right: 150px;
+    }
+
+    .button {
+        margin-right: 150px;
+    }
+
     #img01 {
-        background-image: url(img/celular.jpg);
+        background-image: url(img/fotoMenor.jpg);
         width: 125%;
+        background-position: center center;
 
     }
 
     .cards img {
+        margin-left: 100px;
         background-size: cover;
         background-position: center center;
     }
@@ -37,6 +65,11 @@
 }
 
 @media screen and (max-width:320px) {
+    #img01 {
+        background-position: right right;
+
+    }
+
     #img01 h1 {
         font-size: 35px;
         margin-top: 250px;
@@ -100,9 +133,45 @@
     }
 
     #img01 h1 {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-top: -5px;
         font-size: 20px;
+        margin-left: 50px;
+        line-height: 1.1em;
+
+    }
+
+    #img01 P {
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 1.1em;
+        margin-left: 50px;
+    }
+
+    .button {
+        width: 100px;
+        margin-left: 35px;
+    }
+
+    #img02 h1 {
+        font-size: 20px;
+        margin-left: 55px;
+        line-height: 1.1em;
+        width: 100px;
+
+    }
+
+    #img02 P {
+        margin-top: 10px;
+        font-size: 13px;
+        margin-left: 50px;
+        line-height: 1.1em;
+        width: 100px;
+
+    }
+
+    .button {
+        width: 100px;
+        margin-left: 50px;
     }
 
     .cards {
@@ -112,14 +181,39 @@
 
     .cards h1 {
         font-size: 20px;
+        margin-right: 100px;
+
     }
 
     .cards p {
         font-size: 15px;
+        margin-right: 100px;
     }
 }
 
-.cards img {
-    width: 100px;
-    font-size: 15px;
+
+
+@media screen and (max-width:688px) {
+    headers {
+        display: block;
+    }
+
+    #img01 {
+        background-image: url(img/celular.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #img01 {
+        background-image: url(img/celular.jpg);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:834px) {
+    #img01 {
+        background-image: url(img/celular.jpg);
+        background-size: cover;
+    }
 }
