@@ -1,4 +1,87 @@
-@media screen and (max-width:750px) {
+@media screen and (max-width:720px) {
+    body {
+        width: 73%;
+        height: 100vh;
+
+    }
+
+    .menu {
+        display: block;
+    }
+
+    header {
+        display: none;
+    }
+
+    .cards {
+        flex-direction: column;
+
+    }
+
+    #img02 {
+        width: 125%;
+
+    }
+
+    #img01 h1 {
+        font-size: 35px;
+        margin-top: 150px;
+        margin-right: 10px;
+    }
+
+    #img01 p {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    #img02 h1 {
+        font-size: 35px;
+        margin-top: 250px;
+        margin-right: 10px;
+    }
+
+    #img02 p {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    .button {
+        margin-right: 10px;
+    }
+
+    #img01 {
+        background-image: url(img/fotoMenor.jpg);
+        width: 125%;
+        background-position: center center;
+
+    }
+
+    .cards img {
+
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .normal {
+        margin-right: 15px;
+    }
+
+    #zona4 h1 {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    #zona4 {
+        margin-left: 120px;
+    }
+
+    .cartao {
+        margin-left: 80px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
     body {
         width: 73%;
         height: 100vh;
