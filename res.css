@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:470px) {
     body {
         width: 73%;
         height: 100vh;
