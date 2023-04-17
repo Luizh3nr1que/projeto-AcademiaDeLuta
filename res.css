@@ -1,4 +1,10 @@
 @media screen and (max-width:600px) {
+    body {
+        width: 73%;
+        height: 100vh;
+
+    }
+
     .menu {
         display: block;
     }
@@ -19,28 +25,28 @@
 
     #img01 h1 {
         font-size: 35px;
-        margin-top: 250px;
-        margin-right: 150px;
+        margin-top: 150px;
+        margin-right: 10px;
     }
 
     #img01 p {
         font-size: 20px;
-        margin-right: 150px;
+        margin-right: 10px;
     }
 
     #img02 h1 {
         font-size: 35px;
         margin-top: 250px;
-        margin-right: 150px;
+        margin-right: 10px;
     }
 
     #img02 p {
         font-size: 20px;
-        margin-right: 150px;
+        margin-right: 10px;
     }
 
     .button {
-        margin-right: 150px;
+        margin-right: 10px;
     }
 
     #img01 {
@@ -60,29 +66,59 @@
         margin-right: 25px;
     }
 
+    #zona4 h1 {
+        font-size: 30px;
+        margin-left: 90px;
+    }
+
+    .cartao {
+        margin-left: 20px;
+    }
+
 
 
 }
 
 @media screen and (max-width:320px) {
+    body {
+        width: 75%;
+        height: 100vh;
+
+    }
+
     #img01 {
         background-position: right right;
 
     }
 
     #img01 h1 {
-        font-size: 35px;
+        font-size: 20px;
         margin-top: 250px;
+        margin-right: 45px;
     }
 
     #img01 p {
         font-size: 20px;
         margin-top: 0px;
+        margin-right: 45px;
+    }
 
+    .button {
+        margin-right: 10px;
+        margin-right: 45px;
     }
 
     #img02 h1 {
         font-size: 35px;
+    }
+
+    #zona4 h1 {
+        font-size: 30px;
+        margin-left: 90px;
+    }
+
+    .cartao {
+        width: 250px;
     }
 }
 
