@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     body {
         width: 73%;
         height: 100vh;
@@ -80,7 +80,7 @@
     }
 }
 
-/* @media screen and (max-width:470px) {
+@media screen and (max-width:470px) {
     body {
         width: 73%;
         height: 100vh;
@@ -167,7 +167,7 @@
     }
 
 
-} */
+}
 
 @media screen and (max-width:320px) {
     body {
