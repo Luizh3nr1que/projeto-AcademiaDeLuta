@@ -215,6 +215,7 @@ section {
 }
 
 .normal {
+
     color: rgb(255, 255, 255);
 }
 
@@ -324,6 +325,7 @@ section {
 
 
 .normal {
+
     background-attachment: fixed;
 }
 
@@ -348,7 +350,6 @@ section {
 }
 
 .input-container {
-
     animation: blinkShadowsFilter 8s ease-in infinite;
 }
 
@@ -359,7 +360,7 @@ section {
 }
 
 .input-is {
-    cursor: pointer;
+    cursor: auto;
     border-radius: 20px;
     color: hsl(0, 99%, 41%);
     font-size: 0.9rem;
@@ -368,20 +369,20 @@ section {
     box-sizing: border-box;
     padding-inline: 0.5em;
     padding-block: 0.7em;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     border: 1px solid hsl(0, 99%, 41%);
 }
 
 .input-is:hover {
-    transition: all 2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
 }
 
 .input-is:focus {
     font-size: 15px;
-    border: 2px solid hsl(0, 99%, 41%);
+    border: 3px solid hsl(0, 99%, 41%);
     outline: none;
-    color: hsl(0, 99%, 41%);
+    color: hsl(0, 0%, 100%);
 
 }
 
