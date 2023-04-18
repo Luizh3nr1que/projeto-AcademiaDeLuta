@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -89,7 +90,16 @@ menu a:hover {
 
 
 
-
+body:after {
+    content: '';
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.05926120448179273) 50%, rgba(0, 0, 0, 1) 90%);
+    z-index: -1;
+}
 
 
 
@@ -240,25 +250,38 @@ section {
 
 #img01 p {
     margin-top: 10px;
-    color: gray;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
-.button {
+.shadow__btn {
+    padding: 10px 20px;
     border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+}
+
+.shadow__btn {
+    background: rgb(199, 3, 3);
     cursor: pointer;
-    background-color: black;
-    color: white;
-    width: 150px;
-    height: 50px;
-    transition: all ease .6s;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: transparent;
-    border: 2px solid red;
+    margin-top: 10px;
 
 }
+
+.shadow__btn:hover {
+
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.521),
+        0 0 25px rgba(255, 0, 0, 0.575),
+        0 0 50px rgba(255, 0, 0, 0.603),
+        0 0 100px rgba(255, 0, 0, 0.671);
+}
+
 
 #img02 {
     background-image: url(img/4288971.jpg);
@@ -287,7 +310,7 @@ section {
 
 #img02 p {
     margin-top: 25px;
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
