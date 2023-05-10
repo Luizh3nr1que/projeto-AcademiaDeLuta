@@ -34,32 +34,21 @@ body {
 
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     z-index: 1;
-    width: 100%;
     position: fixed;
     background: transparent;
     height: 55px;
-    display: flex;
     top: 0;
+    width: 100%;
 }
 
 
-.logo {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    padding-left: 100px;
-}
 
 .logo img {
     width: 100px;
-}
-
-menu {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    padding-right: 100px;
 }
 
 menu ul {
